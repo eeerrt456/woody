@@ -209,7 +209,7 @@ def load_model():
         with st.spinner("🌲 Downloading Woody model... Please wait"):
             try:
                 # Extract file ID from the Google Drive link
-                file_id = "1thy-dO8ugVAUpfdrepi662dq3QOvIkMg"
+                file_id = "13WTwUWYh5YfnP0VmULinabtOqaUO7ZIM"
                 url = f"https://drive.google.com/uc?id={file_id}"
                 gdown.download(url, model_path, quiet=False)
             except Exception as e:
