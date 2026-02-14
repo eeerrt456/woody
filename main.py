@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import numpy as np
 from PIL import Image
 import gdown
@@ -337,8 +336,6 @@ def main():
                     st.markdown(f"<hr style='margin: 2rem 0; border: 1px solid #D7CCC8;'>", unsafe_allow_html=True)
                 st.markdown(f"### Image {idx + 1}: {uploaded_file.name}")
                 
-                uploaded_file = uploaded_file
-                uploaded_file = uploaded_file
                 # Read image
                 image = Image.open(uploaded_file)
                 image_np = np.array(image)
